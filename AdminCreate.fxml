@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="564.0" prefWidth="847.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="577.0" fitWidth="857.0" layoutX="-1.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/BackgroundMM.jpeg" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_CENTER" layoutX="224.0" layoutY="27.0" prefHeight="106.0" prefWidth="400.0" text="Admin Create" underline="true">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#AdminLogin" prefHeight="44.0" prefWidth="52.0" style="-fx-background-color: #8c070c;">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/back.jpeg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="breakfast" layoutX="167.0" layoutY="451.0" mnemonicParsing="false" onAction="#SaveBreakfast" prefHeight="58.0" prefWidth="86.0" style="-fx-background-color: #8c070c;" text="Breakfast" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="lunch" layoutX="381.0" layoutY="451.0" mnemonicParsing="false" onAction="#SaveLunch" prefHeight="58.0" prefWidth="86.0" style="-fx-background-color: #8c070c;" text="Lunch" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="dinner" layoutX="613.0" layoutY="451.0" mnemonicParsing="false" onAction="#SaveDinner" prefHeight="58.0" prefWidth="86.0" style="-fx-background-color: #8c070c;" text="Dinner" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="saveqs" layoutX="633.0" layoutY="253.0" mnemonicParsing="false" onAction="#SaveQuickSnack" prefHeight="58.0" prefWidth="86.0" style="-fx-background-color: #8c070c;" text="Quick Snack" textFill="WHITE" />
+      <TextArea fx:id="lname" layoutX="193.0" layoutY="133.0" prefHeight="279.0" prefWidth="394.0" />
+      <Label layoutX="144.0" layoutY="526.0" prefHeight="35.0" prefWidth="626.0" text="Being challenged in life is inevitable. Being defeated is optional." textFill="#0df242">
+         <font>
+            <Font name="Webdings" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

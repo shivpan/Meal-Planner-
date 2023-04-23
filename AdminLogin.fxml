@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="566.0" fitWidth="849.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Downloads/BackgroundMM.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="305.0" layoutY="34.0" prefHeight="54.0" prefWidth="239.0" text="ADMIN LOGIN">
+         <font>
+            <Font name="Arial" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="234.0" layoutY="167.0" prefHeight="28.0" prefWidth="110.0" text="Username">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="234.0" layoutY="254.0" prefHeight="28.0" prefWidth="110.0" text="Password">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField layoutX="405.0" layoutY="168.0" prefHeight="26.0" prefWidth="219.0" />
+      <Button layoutX="350.0" layoutY="399.0" mnemonicParsing="false" onAction="#AdminCreate" prefHeight="38.0" prefWidth="110.0" style="-fx-background-color: #8c070c;" text="Admin Login" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="203.0" layoutY="508.0" prefHeight="43.0" prefWidth="444.0" text="“Let things taste of what they are.”" textFill="#78943c">
+         <font>
+            <Font name="System Italic" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#UserLogin" opacity="0.81" prefHeight="54.0" prefWidth="62.0" style="-fx-background-color: #8c070c; -fx-background-image: ;">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/back.jpeg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <PasswordField layoutX="405.0" layoutY="256.0" prefHeight="25.0" prefWidth="219.0" />
+   </children>
+</AnchorPane>
